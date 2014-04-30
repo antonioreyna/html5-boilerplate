@@ -199,7 +199,7 @@ textarea {
 
 /* ==========================================================================
    Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
+   Inlined to avoid the additional HTTP request: h5bp.com/r
    ========================================================================== */
 
 @media print {
@@ -224,7 +224,7 @@ textarea {
     }
 
     /*
-     * Don't show links for images, or javascript/internal links
+     * Don't show links that are JavaScript URIs or fragment identifiers
      */
 
     a[href^="javascript:"]:after,
